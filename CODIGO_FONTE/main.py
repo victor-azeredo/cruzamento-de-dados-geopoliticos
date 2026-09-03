@@ -16,10 +16,11 @@ CIDADES_PARA_ANALISAR = [
     {'NOME': 'Campos dos Goytacazes', 'TSE_CODE': 58130, 'IBGE_CODE': 3301009},
     {'NOME': 'Niterói', 'TSE_CODE': 58874, 'IBGE_CODE': 3303302}
 ]
-ARQUIVO_TSE_CSV = 'eleitorado_local_votacao_2022.csv'
-ARQUIVO_BAIRROS_SHP = 'BR_bairros_CD2022.shp'
-ARQUIVO_FINAL_SECOES = 'resultado_secoes_multiplas_cidades.csv'
-ARQUIVO_FINAL_BAIRROS = 'resultado_catalogo_bairros_multiplas_cidades.csv'
+ARQUIVO_TSE_CSV = r"C:\Users\joao\OneDrive\Desktop\CRUZAMENTO_DE_DADOS\TSE\eleitorado_local_votacao_2022.csv"
+ARQUIVO_BAIRROS_SHP = r"C:\Users\joao\OneDrive\Desktop\CRUZAMENTO_DE_DADOS\IBGE\BR_bairros_CD2022.shp"
+
+ARQUIVO_FINAL_SECOES = r"C:\Users\joao\OneDrive\Desktop\CRUZAMENTO_DE_DADOS\RESULTADO_SECOES\resultado_secoes_multiplas_cidades.csv"
+ARQUIVO_FINAL_BAIRROS = r"C:\Users\joao\OneDrive\Desktop\CRUZAMENTO_DE_DADOS\RESULTADO_BAIRROS\resultado_catalogo_bairros_multiplas_cidades.csv"
 
 COLUNA_MUNICIPIO_TSE = 'CD_MUNICIPIO'
 COLUNA_SECAO_TSE = 'NR_SECAO'
